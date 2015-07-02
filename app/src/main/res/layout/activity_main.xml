@@ -21,8 +21,25 @@
         />
 
     <com.openwudi.customviewsample.view.RoundView
-        android:layout_height="10dp"
-        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/material_blue_grey_950"
+        />
+
+    <com.openwudi.customviewsample.view.CustomLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/google_web_search"/>
+
+    </com.openwudi.customviewsample.view.CustomLayout>
 
 </LinearLayout>
